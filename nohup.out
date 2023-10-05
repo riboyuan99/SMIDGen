@@ -1,0 +1,202 @@
+ ** API running. **
+Traceback (most recent call last):
+  File "python/searchTweetsNew.py", line 239, in <module>
+    app.run(port=8081, debug=False)
+  File "/Users/riboyuan/Desktop/SMIDGen-BEFORE/smidgen-venv/lib/python3.6/site-packages/flask/app.py", line 920, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/Users/riboyuan/Desktop/SMIDGen-BEFORE/smidgen-venv/lib/python3.6/site-packages/werkzeug/serving.py", line 1017, in run_simple
+    inner()
+  File "/Users/riboyuan/Desktop/SMIDGen-BEFORE/smidgen-venv/lib/python3.6/site-packages/werkzeug/serving.py", line 966, in inner
+    fd=fd,
+  File "/Users/riboyuan/Desktop/SMIDGen-BEFORE/smidgen-venv/lib/python3.6/site-packages/werkzeug/serving.py", line 790, in make_server
+    host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+  File "/Users/riboyuan/Desktop/SMIDGen-BEFORE/smidgen-venv/lib/python3.6/site-packages/werkzeug/serving.py", line 693, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 456, in __init__
+    self.server_bind()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 470, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 48] Address already in use
+ ** API running. **
+Traceback (most recent call last):
+  File "python/searchTweetsNew.py", line 239, in <module>
+    app.run(port=8082, debug=False)
+  File "/Users/riboyuan/Desktop/SMIDGen-BEFORE/smidgen-venv/lib/python3.6/site-packages/flask/app.py", line 920, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/Users/riboyuan/Desktop/SMIDGen-BEFORE/smidgen-venv/lib/python3.6/site-packages/werkzeug/serving.py", line 1017, in run_simple
+    inner()
+  File "/Users/riboyuan/Desktop/SMIDGen-BEFORE/smidgen-venv/lib/python3.6/site-packages/werkzeug/serving.py", line 966, in inner
+    fd=fd,
+  File "/Users/riboyuan/Desktop/SMIDGen-BEFORE/smidgen-venv/lib/python3.6/site-packages/werkzeug/serving.py", line 790, in make_server
+    host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+  File "/Users/riboyuan/Desktop/SMIDGen-BEFORE/smidgen-venv/lib/python3.6/site-packages/werkzeug/serving.py", line 693, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 456, in __init__
+    self.server_bind()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 470, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 48] Address already in use
+ ** API running. **
+Traceback (most recent call last):
+  File "python/searchTweetsNew.py", line 239, in <module>
+    app.run(port=8082, debug=False)
+  File "/Users/riboyuan/Desktop/SMIDGen-BEFORE/smidgen-venv/lib/python3.6/site-packages/flask/app.py", line 920, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/Users/riboyuan/Desktop/SMIDGen-BEFORE/smidgen-venv/lib/python3.6/site-packages/werkzeug/serving.py", line 1017, in run_simple
+    inner()
+  File "/Users/riboyuan/Desktop/SMIDGen-BEFORE/smidgen-venv/lib/python3.6/site-packages/werkzeug/serving.py", line 966, in inner
+    fd=fd,
+  File "/Users/riboyuan/Desktop/SMIDGen-BEFORE/smidgen-venv/lib/python3.6/site-packages/werkzeug/serving.py", line 790, in make_server
+    host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+  File "/Users/riboyuan/Desktop/SMIDGen-BEFORE/smidgen-venv/lib/python3.6/site-packages/werkzeug/serving.py", line 693, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 456, in __init__
+    self.server_bind()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 470, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 48] Address already in use
+ * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+127.0.0.1 - - [03/Oct/2023 16:28:16] "POST /tweets HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+127.0.0.1 - - [03/Oct/2023 17:15:02] "POST /tweets HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2023 17:21:38] "POST /tweets HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+127.0.0.1 - - [03/Oct/2023 17:24:43] "POST /tweets HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+127.0.0.1 - - [03/Oct/2023 17:39:29] "[33mPOST /tweets HTTP/1.1[0m" 404 -
+ * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+127.0.0.1 - - [03/Oct/2023 17:43:08] "POST /tweets HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+127.0.0.1 - - [03/Oct/2023 17:46:59] "POST /tweets HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+ ** API running. **
+'https://api.twitter.com/2/tweets/search/recent'
+{'expansions': 'author_id',
+ 'max_results': 10,
+ 'query': 'hello place_country:US -birthday -is:retweet',
+ 'tweet.fields': 'public_metrics,created_at,lang,source',
+ 'user.fields': 'name,username,location'}
+<Response [400]>
+127.0.0.1 - - [03/Oct/2023 17:48:41] "POST /tweets HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+ ** API running. **
+'https://api.twitter.com/2/tweets/search/recent'
+{'expansions': 'author_id',
+ 'max_results': 50,
+ 'query': '23',
+ 'tweet.fields': 'public_metrics,created_at,lang,source,context_annotations',
+ 'user.fields': 'name,username,location'}
+<Response [200]>
+[2023-10-03 17:51:03,675] ERROR in app: Exception on /tweets [POST]
+Traceback (most recent call last):
+  File "/Users/riboyuan/Desktop/SMIDGen-BEFORE/smidgen-venv/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/riboyuan/Desktop/SMIDGen-BEFORE/smidgen-venv/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/riboyuan/Desktop/SMIDGen-BEFORE/smidgen-venv/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/riboyuan/Desktop/SMIDGen-BEFORE/smidgen-venv/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "python/searchTweetsNew.py", line 215, in get_tweets
+    return json.dumps({"result":result, "suggest_keywords": suggestion_str})
+UnboundLocalError: local variable 'suggestion_str' referenced before assignment
+127.0.0.1 - - [03/Oct/2023 17:51:03] "[35m[1mPOST /tweets HTTP/1.1[0m" 500 -
+ * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+ ** API running. **
+'https://api.twitter.com/2/tweets/search/recent'
+{'expansions': 'author_id',
+ 'max_results': 50,
+ 'query': '',
+ 'tweet.fields': 'public_metrics,created_at,lang,source,context_annotations',
+ 'user.fields': 'name,username,location'}
+<Response [400]>
+127.0.0.1 - - [03/Oct/2023 17:53:18] "POST /tweets HTTP/1.1" 200 -
+'https://api.twitter.com/2/tweets/search/recent'
+{'expansions': 'author_id',
+ 'max_results': 50,
+ 'query': '123',
+ 'tweet.fields': 'public_metrics,created_at,lang,source,context_annotations',
+ 'user.fields': 'name,username,location'}
+<Response [200]>
+127.0.0.1 - - [03/Oct/2023 17:53:23] "POST /tweets HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+ ** API running. **
+'https://api.twitter.com/2/tweets/search/recent'
+{'expansions': 'author_id',
+ 'max_results': 10,
+ 'query': 'tired place_country:US -birthday -is:retweet',
+ 'tweet.fields': 'public_metrics,created_at,lang,source,context_annotations',
+ 'user.fields': 'name,username,location'}
+<Response [400]>
+127.0.0.1 - - [03/Oct/2023 17:56:27] "POST /tweets HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+ ** API running. **
+'https://api.twitter.com/2/tweets/search/recent'
+{'expansions': 'author_id',
+ 'max_results': 10,
+ 'query': '123123 lang:en -birthday -is:retweet',
+ 'tweet.fields': 'public_metrics,created_at,lang,source,context_annotations',
+ 'user.fields': 'name,username,location'}
+<Response [200]>
+127.0.0.1 - - [03/Oct/2023 18:01:41] "POST /tweets HTTP/1.1" 200 -
+ ** API running. **
+Traceback (most recent call last):
+  File "python/searchTweetsNew.py", line 243, in <module>
+    app.run(port=8081, debug=False)
+  File "/Users/riboyuan/Desktop/SMIDGen-BEFORE/smidgen-venv/lib/python3.6/site-packages/flask/app.py", line 920, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/Users/riboyuan/Desktop/SMIDGen-BEFORE/smidgen-venv/lib/python3.6/site-packages/werkzeug/serving.py", line 1017, in run_simple
+    inner()
+  File "/Users/riboyuan/Desktop/SMIDGen-BEFORE/smidgen-venv/lib/python3.6/site-packages/werkzeug/serving.py", line 966, in inner
+    fd=fd,
+  File "/Users/riboyuan/Desktop/SMIDGen-BEFORE/smidgen-venv/lib/python3.6/site-packages/werkzeug/serving.py", line 790, in make_server
+    host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+  File "/Users/riboyuan/Desktop/SMIDGen-BEFORE/smidgen-venv/lib/python3.6/site-packages/werkzeug/serving.py", line 693, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 456, in __init__
+    self.server_bind()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 470, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 48] Address already in use
+ * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+ ** API running. **
+'https://api.twitter.com/2/tweets/search/recent'
+{'expansions': 'author_id',
+ 'max_results': 10,
+ 'query': 'test lang:en -birthday -is:retweet',
+ 'tweet.fields': 'public_metrics,created_at,lang,source,context_annotations',
+ 'user.fields': 'name,username,location'}
+<Response [200]>
+127.0.0.1 - - [05/Oct/2023 15:25:37] "POST /tweets HTTP/1.1" 200 -
+'https://api.twitter.com/2/tweets/search/recent'
+{'expansions': 'author_id',
+ 'max_results': 10,
+ 'query': 'hello lang:en -birthday -is:retweet',
+ 'tweet.fields': 'public_metrics,created_at,lang,source,context_annotations',
+ 'user.fields': 'name,username,location'}
+<Response [200]>
+127.0.0.1 - - [05/Oct/2023 15:28:30] "POST /tweets HTTP/1.1" 200 -
+'https://api.twitter.com/2/tweets/search/recent'
+{'expansions': 'author_id',
+ 'max_results': 10,
+ 'query': 'America lang:en -birthday -is:retweet',
+ 'tweet.fields': 'public_metrics,created_at,lang,source,context_annotations',
+ 'user.fields': 'name,username,location'}
+<Response [200]>
+127.0.0.1 - - [05/Oct/2023 15:50:25] "POST /tweets HTTP/1.1" 200 -
+'https://api.twitter.com/2/tweets/search/recent'
+{'expansions': 'author_id',
+ 'max_results': 10,
+ 'query': 'exhausted lang:en -birthday -is:retweet',
+ 'tweet.fields': 'public_metrics,created_at,lang,source,context_annotations',
+ 'user.fields': 'name,username,location'}
+<Response [200]>
+127.0.0.1 - - [05/Oct/2023 16:34:10] "POST /tweets HTTP/1.1" 200 -

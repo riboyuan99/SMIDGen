@@ -1,0 +1,10 @@
+ps -fA | grep python
+
+nohup python searchTweetsNew.py &
+
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh (for tokenizer)
+source "$HOME/.cargo/env"(can take a while)
+
+source smidgen-venv/bin/activate
+
+sudo lsof -i:8081
